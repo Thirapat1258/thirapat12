@@ -1,0 +1,101 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
+name:
+  first: Thirapat
+  middle:
+  last: Amornsin
+about: Hi, my name is Thirapat Amornsin. 
+position: DevOps Engineer
+
+birth:
+  year: 1988
+  location: Nakhon Pathom
+
+# you may add more experiences by duplicating the template
+
+experience:
+- company: TP Recruite Co.,Ltd
+  position: Outsource DevOps Engineer at AIS ( ITSM ) 
+  timeperiod: April 2019 - Present · 3 Year 4 Month
+  description: ...............
+  website: http://www.tpcrecruit.com
+
+- company: Freelance 
+  position: System Engineer, Administrator, Wordpress, MikroTik
+  timeperiod: January 2018 - April 2019 · 1 Years 4 Month
+  description: ...............
+
+- company: Suwan Golf & Country Club
+  position: System Engineer, Administrator
+  timeperiod: January 2015 - January 2018 · 3 Years 1 Month
+  description: ...............
+  website: https://suwangolf.com
+
+- company: Amorn Electronics
+  position: IT Support, Hardware Support, Helpdesk Support, Data Engineer
+  timeperiod: April 2014 - January 2015 · 10 Months
+  description: ...............
+  website: https://www.amorngroup.com/
+
+- company: BigC Supercenter ,Nakhon Pathom
+  position: EDP ( Electronic Data Processing ), IT Support
+  timeperiod: May 2013 - March 2014 · 11 Months
+  description: ...............
+  website: https://www.bigc.co.th/
+
+education:
+
+- degree: Bachelor of Science
+  timeperiod: March 2009 - December 2011
+  description: Major in Engineering, University B, Los Angeles, USA.
+
+# skill level goes from 0 to 100
+skills:
+- name: Nginx
+  level: 60
+- name: K8S
+  level: 70
+- name: Docker
+  level: 90
+- name: ELK STACK
+  level: 60
+- name: Jenkins CI/CD
+  level: 80
+- name: Ansible, AWX
+  level: 70
+- name: Gitlab, CI
+  level: 60
+- name: Github, Action
+  level: 60
+
+knowledge: Also proficient in Adobe Photoshop and Illustrator
+
+projects:
+- name: best-resume-ever
+  platform: Vue
+  timeperiod: February 2016
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+# optional, not all resume templates have hobbies included
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: wisineethirapat@gmail.com
+  phone: 086 4018079
+  street: 211, 25 Mokkara Rd. Subdistrict Boplub District Mueang 73000
+  city: Nakhon Pathon
+  website: https://thirapat12.com
+  github: thirapat1225
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`
