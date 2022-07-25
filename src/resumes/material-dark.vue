@@ -64,6 +64,17 @@
       </div>
     </a>
 
+    <a v-if="person.contact.linkedin" :href="person.contact.linkedin" target="_blank">
+      <div class="item">
+        <div class="icon">
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="text">
+          <span>linkedin.com/in/{{person.contact.linkedin}}</span>
+        </div>
+      </div>
+    </a>
+
     <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">
